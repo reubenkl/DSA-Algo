@@ -3,15 +3,15 @@ package problems;
 public class Factorial {
     public static void main(String[] args) {
         Integer input = 5;
-        Integer result = recurrsiveFactorial(input);
+        Integer result = recursiveFactorial(input);
         System.out.println(input+"! = "+result);
     }
 
-    private static Integer recurrsiveFactorial(Integer input) {
+    private static Integer recursiveFactorial(Integer input) {
         if(input == 0){
             return 1;
         }
-        return input * recurrsiveFactorial(input-1);
+        return input * recursiveFactorial(input-1);
     }
     private static Integer findFactorialSolution1(Integer input) {
         Integer result = 1;
