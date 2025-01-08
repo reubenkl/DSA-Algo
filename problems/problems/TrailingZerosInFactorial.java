@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 public class TrailingZerosInFactorial {
     public static void main(String[] args) {
-        Integer input = 100;
+        Integer input = 30;
         Integer result = trailingZerosCountInFactorialEfficientSolution(input);
         System.out.println(input+"! contains "+result+" trailing Zeros");
     }
