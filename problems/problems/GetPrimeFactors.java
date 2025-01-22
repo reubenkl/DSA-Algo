@@ -2,7 +2,7 @@ package problems;
 
 public class GetPrimeFactors {
     public static void main(String[] args) {
-        getPrimeFactors(25);
+        getPrimeFactors(28);
     }
 
     private static void getPrimeFactors(int n) {
