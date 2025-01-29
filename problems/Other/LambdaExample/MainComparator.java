@@ -1,4 +1,4 @@
-package Other;
+package Other.LambdaExample;
 
 import java.util.Arrays;
 import java.util.function.Function;

@@ -1,4 +1,4 @@
-package Other;
+package Other.LambdaExample;
 
 public class Person {
 
